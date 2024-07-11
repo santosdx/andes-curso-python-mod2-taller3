@@ -10,12 +10,11 @@ class BoaConstrictor(AnimalExotico, IAnimal):
     def hacer_sonido(self) -> str:
         return "¡Tsss!"
 
-    def comer(self, kilos: int):
-        if self.__raton + kilos < 10:
-            self.__raton = self.__raton + kilos
+    def comer(self, ratones: int):
+        if self.__raton + ratones < 20:
+            self.__raton = self.__raton + ratones
         else:
             raise ValueError("Demasiados Ratones!")
-
 
     def get_kilos_comidos(self):
         return self.__raton

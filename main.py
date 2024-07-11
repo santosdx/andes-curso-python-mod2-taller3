@@ -31,7 +31,7 @@ print('El huron "{0}" hace {1}'.format(el_huron.get_nombre(), el_huron.hacer_son
 lista_animales = [la_boa, el_huron]
 la_guarderia = Guarderia(lista_animales)
 la_guarderia.alimentar_boa(la_boa, 2)
-la_guarderia.alimentar_boa(la_boa, 10)
+la_guarderia.alimentar_boa(la_boa, 20)
 
 otra_boa = BoaConstrictor("Filomena", 2, 8, "Brasil", 10)
 la_guarderia.alimentar_boa(otra_boa, 2)
